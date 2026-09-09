@@ -13,9 +13,23 @@ h1 {
     background-color: white;
 }
 
-.card {
+.card img {
+    height: 400px;
+    width: 400px;
     background-color: lightblue;
     padding: 20px;
     margin: 20px;
     color: white;
+    width: 450px;
+    border-radius: 30px;
+    object-fit: cover;
 }
+
+.galeria-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+} 
