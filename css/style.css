@@ -4,32 +4,70 @@
     box-sizing: border-box;
 }
 
-
-h1 {
-    color: rgb(29, 111, 200);
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(205, 221, 255);
 }
 
-#header-bala {
+header {
+    background-color: rgb(48, 48, 147);
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+main {
+    padding: 30px;
+}
+
+#introducao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+    background-color: rgb(173, 216, 230);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#introducao img {
+    width: 350px;
+    height: 350px;
+}
+
+#cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card {
     background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .card img {
+    width: 100%;
+    border-radius: 20px;
     height: 400px;
-    width: 400px;
-    background-color: lightblue;
-    padding: 20px;
-    margin: 20px;
-    color: white;
-    width: 450px;
-    border-radius: 30px;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
 
-.galeria-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-} 
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
